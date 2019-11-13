@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+h3 {
+  margin: 20px;
+}
+h2 {
+  color: rgb(40,43,52)
+}
+h1 {
+  color: rgb(40,43,52)
+
+}
+ul {
+  list-style-type: none;
+}
+label {
+  font-weight: 600;
+  color: rgb(40,43,52)
+}
+.submit-button {
+width: 60x;
+height: 25px;
+margin: 10px;
+font-weight: bold;
+}
+.submit-button:hover {
+  background-color: rgb(0, 221, 175)
+}
+li {
+  color: rgb(40,43,52)
+}
+.remove {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(255,0,0,0.3)
+}
+.remove:hover{
+  color: rgba(255,0,0,0.8)
+}

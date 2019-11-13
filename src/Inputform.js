@@ -16,10 +16,12 @@ function Inputform({ newName, setNewName, newNumber, setNewNumber, persons, setP
       newName !== ele.name
     )
     if (repeat) {
-      // console.log('button clicked', event.target)
+      const prevID = persons[persons.length-1].id
       const newobj = {
         name: newName,
-        number: newNumber
+        number: newNumber,
+        id: (prevID + 1)
+        
       }
       axios
         .post('http://localhost:3001/persons', newobj)
@@ -40,12 +42,12 @@ function Inputform({ newName, setNewName, newNumber, setNewNumber, persons, setP
     <div>
       <form onSubmit={addName}>
         <div>
-          name: <input value={newName} onChange={inputName} />
+        <label>Name    </label><input value={newName} onChange={inputName} />
           <br></br>
-          number: <input value={newNumber} onChange={inputNumber} />
+          <label>Number  </label> <input value={newNumber} onChange={inputNumber} />
         </div>
         <div>
-          <button type="submit">add</button>
+          <button className='submit-button' type="submit">Add</button>
         </div>
       </form>
     </div>

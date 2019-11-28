@@ -7,9 +7,9 @@ I completed this project using the material in this course.  It gave self direct
 ### So far I have used
  - REACT
  - UseEffect and UseState hooks
- - APIs and created my own local Json backend
- - and MORE !!
+ - APIs and created my own local host backend
+
 
  
-### Current Stage
-I have created a working website (that is also mobile friendly), that allows you to add and delete names and telephone numbers.  Saving them into a back end and manipulating that data.
+### Update
+This was completed during the first few weeks of my course for additional study.  I have temporarily put this on hold whilst we learn REACT and will hopefully revisit with new skills
